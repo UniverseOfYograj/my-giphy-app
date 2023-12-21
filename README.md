@@ -23,7 +23,7 @@ This Next.js application allows users to search and browse GIFs using the GIPHY 
 ### Installation
 
 1. Clone the repository-
-   git clone https://github.com/UniverseOfYograj/my-giphy-ap
+   git clone https://github.com/UniverseOfYograj/my-giphy-app
 
 2.Open the project in Visual Studio Code (VSCode) or your preferred code editor.
 
