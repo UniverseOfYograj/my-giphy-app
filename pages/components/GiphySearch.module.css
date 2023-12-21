@@ -1,0 +1,100 @@
+/* components/GiphySearch.module.css */
+.container {
+    text-align: center;
+    padding: 40px;
+  }
+  
+  .title {
+    font-size: 3rem;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .subtitle {
+    font-size: 1rem;
+    color: #777;
+    margin-bottom: 20px;
+  }
+  
+  .searchContainer {
+    margin-bottom: 20px;
+  }
+  
+  .searchInput {
+    width: 300px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .gifContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .gifContainer img {
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .message {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 10px;
+  }
+  .container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .title {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .subtitle {
+    color: #555;
+  }
+  
+  .message {
+    color: #777;
+  }
+  
+  .searchContainer {
+    margin-bottom: 20px;
+  }
+  
+  .searchInput {
+    padding: 10px;
+    width: 100%;
+  }
+  
+  .gifContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .gifItem {
+    position: relative;
+    margin: 10px;
+  }
+  
+  .favoriteButton {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+  }
+  
+  .favorite {
+    color: #FF4081; /* Change the color to your preferred color */
+  }
+  
