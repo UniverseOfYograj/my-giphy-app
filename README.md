@@ -33,6 +33,19 @@ This Next.js application allows users to search and browse GIFs using the GIPHY 
    npm run dev
 5.Open your browser and visit http://localhost:3000 to see the app in action.
 
+**HOW TO USE AND RUN THIS APP**
+1-open the downloaded folder in VScode.
+2-open terminal
+3-npm run dev
+4-in this website u will see two modules 1- signup 2-signin
+5-signup is needed to use the website
+6-once u have signed up the website page move you to the main home page
+7- in home page u will have to login
+8-in login window u will have to enter the same credentials which u have entered at the time of signin
+9-after successfully sign in page will move you to the giphy page window 
+10-Now u can see trending giphs and search the gif u want to see
+
+
 
 
 ###DEVELOPED AND DESIGNED BY--->
