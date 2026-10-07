@@ -1,59 +1,65 @@
-# GIPHY-NEXT.JS-APP
-# GIF Search App with Firebase Authentication
+# GIPHY Next.js App
 
-This Next.js application allows users to search and browse GIFs using the GIPHY API while leveraging Firebase Authentication for user login and registration. It provides a seamless experience for exploring GIFs and marking favorites.
+A GIF search and discovery web application built with **Next.js**, **Firebase Authentication**, and the **GIPHY API**.
 
-## Features
+Users can create an account, sign in, explore trending GIFs, and search for GIFs using keywords.
 
-- **User Authentication:** Enable users to sign up or log in using their email and password via Firebase Authentication.
-- **GIF Search:** Utilize the GIPHY API to display a gallery of GIFs based on user-searched keywords.
-- **Mark Favorites (Optional):** Allow users to mark individual GIFs as favorites and view them in a dedicated section.**note** -not fully functional and working
-- **Trending gifs:** it shows trending gifs when user enters to the giphy page after successfully login
-- 
+---
 
-## Getting Started
+## 🚀 Features
 
-### Prerequisites
+- 🔐 **Firebase Authentication**
+  - User registration
+  - User login
+  - Email/password authentication
 
-- Node.js installed
-- Firebase account and API credentials
-- GIPHY API key
+- 🔎 **GIF Search**
+  - Search GIFs using keywords
+  - Fetch GIFs from the GIPHY API
+  - Display search results in a gallery
 
-### Installation
+- 🔥 **Trending GIFs**
+  - Displays trending GIFs after successful login
 
-1. Clone the repository-
-   git clone https://github.com/your-username/your-repo.git
+- ❤️ **Favorites**
+  - Favorite GIF functionality is included as an optional feature
+  - Currently not fully implemented
 
-2.Open the project in Visual Studio Code (VSCode) or your preferred code editor.
+- ⚡ **Next.js**
+  - Modern React-based application
+  - Fast development workflow
 
-3.Install the project dependencies using the following command in the terminal:
-      npm install
+---
 
-4.Start the development server:
-   npm run dev
-5.Open your browser and visit http://localhost:3000 to see the app in action.
+## 🛠️ Tech Stack
 
-**HOW TO USE AND RUN THIS APP**
-1-open the downloaded folder in VScode.
-2-open terminal
-3-npm run dev
-4-in this website u will see two modules 1- signup 2-signin
-5-signup is needed to use the website
-6-once u have signed up the website page move you to the main home page
-7- in home page u will have to login
-8-in login window u will have to enter the same credentials which u have entered at the time of signin
-9-after successfully sign in page will move you to the giphy page window 
-10-Now u can see trending giphs and search the gif u want to see
+| Technology | Purpose |
+|---|---|
+| Next.js | Frontend framework |
+| React.js | UI development |
+| Firebase Authentication | User authentication |
+| GIPHY API | GIF search and trending GIFs |
+| JavaScript | Application logic |
+| Node.js / npm | Development environment |
+| VS Code | Development |
 
+---
 
+## 📋 Prerequisites
 
+Before running the project, make sure you have:
 
-###DEVELOPED AND DESIGNED BY--->
-YOGRAJ TRIPATHI
-Final year student IT OIST Bhopal
-contact-9685686061 
-alternate-8959372190
-gmail- yograjtripathi1009@gmail.com
-linkedin-->https://www.linkedin.com/in/yograj-tripathi-554471255/
+- [Node.js](https://nodejs.org/) installed
+- npm installed
+- A Firebase project
+- Firebase Authentication configured
+- A GIPHY API key
 
+---
 
+## ⚙️ Getting Started
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/UniverseOfYograj/my-giphy-app.git
